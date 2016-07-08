@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:stretchColumns="1">
+<TableRow>
+    <TextView
+        android:text="@string/EMPTY" />
+    <TextView
+        android:text="@string/sin_IVA"
+        android:gravity="end"
+        android:padding="3dip" />
+    <TextView
+        android:id="@+id/txt_siniva"
+        android:text="@string/NULL"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:padding="3dip" />
+</TableRow>
+
+<TableRow>
+    <TextView
+        android:text="@string/EMPTY" />
+    <TextView
+        android:text="@string/IVA"
+        android:gravity="end"
+        android:padding="3dip" />
+    <TextView
+        android:id="@+id/txt_iva"
+        android:text="@string/NULL"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:padding="3dip" />
+</TableRow>
+<TableRow>
+    <TextView
+        android:text="@string/EMPTY" />
+    <TextView
+        android:text="@string/total"
+        android:gravity="end"
+        android:padding="5dip" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="12"
+        android:id="@+id/edt_total"
+        android:gravity="end" />
+</TableRow>
+<TableRow>
+    <TextView
+        android:text="@string/EMPTY" />
+    <TextView
+        android:text="@string/EMPTY" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clean"
+        android:id="@+id/btn_clear" />
+</TableRow>
+</TableLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculadorDelIvaEc2</string>
+    <string name="sin_IVA">sin IVA</string>
+    <string name="IVA">IVA</string>
+    <string name="total">Total</string>
+    <string name="total_pagado">Total Pagado</string>
+    <string name="NULL">0</string>
+    <string name="EMPTY"> </string>
+    <string name="clean">Limpiar</string>
+</resources>
